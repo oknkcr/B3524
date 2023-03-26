@@ -3,7 +3,7 @@ Buck Converter Using SG3524
 
 ## Description
 
-***B3524*** is an over current and over voltage  protection circuit for power supplies or wall adaptors. It has an adjustable current limiting function. I named it as shortly PSP(Power Supply Protection) Circuit.
+***B3524*** is a step-down(Buck) DC-DC converter using SG3524 PWM Controller.
 	
 ## Project status
 
@@ -14,8 +14,8 @@ Buck Converter Using SG3524
 According to the schematic design:
 	
 - Operating Input Voltage Range of 10V to 15V
-- Vin:12V, Vout:5V, Pout:5W
-- Fsw:90kHz
+- Vin: 12V, Vout: 5V, Pout: 5W
+- Fsw: 90kHz
 - 15V Over Voltage Protection(OVP)
 - 10V Under Voltage Protection(UVP)
 - 1.33A Over Current Protection(OCP)
@@ -32,6 +32,11 @@ According to the schematic design:
 	PCB and Test visuals:
 	
 ![](https://github.com/oknkcr/B3524/blob/main/Images/3D/BUCK3524PCB_261222_2022-Dec-25_09-57-44PM-000_CustomizedView3440821548_png.png)
+![](https://github.com/oknkcr/B3524/blob/main/Images/Board/WhatsApp%20Image%202023-03-25%20at%2016.51.18%20(4).jpeg)
+![](https://github.com/oknkcr/B3524/blob/main/Images/Board/WhatsApp%20Image%202023-03-25%20at%2016.51.18%20(6).jpeg)
+![](https://github.com/oknkcr/B3524/blob/main/Images/Board/WhatsApp%20Image%202023-03-25%20at%2016.51.19.jpeg)
+![](https://github.com/oknkcr/B3524/blob/main/Images/Board/WhatsApp%20Image%202023-03-26%20at%2002.16.20.jpeg)
+![](https://github.com/oknkcr/B3524/blob/main/Images/Board/WhatsApp%20Image%202023-03-25%20at%2016.51.19%20(1).jpeg)
 	
 ## Authors and acknowledgment
 
